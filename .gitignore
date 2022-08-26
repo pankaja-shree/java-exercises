@@ -2,4 +2,4 @@
 *.metadata/*
 *.class
 target/
-bin/
+bin/*
