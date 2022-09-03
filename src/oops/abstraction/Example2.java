@@ -9,8 +9,15 @@ abstract class B {
 
 public class Example2 extends B{
 
-	public Example2() {
-		// TODO Auto-generated constructor stub
+	public void test1() {
+		System.out.println("test1");
 	}
-
+	
+	public void test2() {
+		System.out.println("test2");
+	}
+	
+	public void test3() {
+		System.out.println("test3");
+	}
 }
