@@ -59,6 +59,15 @@ public class Example1 {
 		System.out.println(str1.equals(str2)); // equals method checks only content
 		System.out.println(str1 == str2); // == checks object
 
+		StringBuilder sbf = new StringBuilder();
+		sbf.append("abc");
+		sbf.append("xyz");
+		System.out.println(sbf);
+		
+		StringBuffer sb = new StringBuffer();
+		sb.append("abc");
+		sb.append("xyz");
+		System.out.println(sb);
 	}
 	
 }
